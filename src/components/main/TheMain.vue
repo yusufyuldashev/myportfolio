@@ -8,8 +8,9 @@
             Building Digital Products, Brands & Experience.
           </h4>
           <p class="main__left__slog">
-            A Product Design and Visual Designer in SF I”m Specialize in UI/UX,
-            Responsive web design, and visual Development.
+            A Product Dev and Visual Dev Create web pages and use them
+            dynamically with a backend, Responsive web design, and visual
+            Development.
           </p>
           <div class="group__list">
             <a id="group__list__left" href="#">Hire Me</a>
@@ -46,8 +47,8 @@
                 alt="jason"
               />
               <div id="wrapper__small__data">
-                <h4 id="wrapper__title">Jason Holder</h4>
-                <h4 id="wrapper__text">UX Designer at Futura</h4>
+                <h4 id="wrapper__title">Muhammadjon Masayev</h4>
+                <h4 id="wrapper__text">Web Developer at Tujjor</h4>
               </div>
             </div>
           </div>
@@ -57,12 +58,10 @@
   </section>
 </template>
 <script>
-export default {};
+export default {}
 </script>
 
-
-
-<style scoped lang='scss'>
+<style scoped lang="scss">
 #section1 {
   background-color: #033748;
   padding-top: 70px;
@@ -76,7 +75,7 @@ export default {};
 
     .main__left__title {
       margin-top: 70px;
-      font-family: "Schoolbell", cursive;
+      font-family: 'Schoolbell', cursive;
       background-color: #094556;
       border-radius: 30px;
       padding: 15px 30px;
@@ -89,14 +88,14 @@ export default {};
       font-size: 60px;
       margin-top: 40px;
       color: white;
-      font-family: "Inter";
+      font-family: 'Inter';
       font-weight: 700;
     }
     .main__left__slog {
       margin-top: 30px;
       color: #849499;
       font-size: 18px;
-      font-family: "Inter";
+      font-family: 'Inter';
     }
     .group__list {
       display: flex;
@@ -106,7 +105,7 @@ export default {};
         text-decoration: none;
         background-color: #ffa63a;
         border-radius: 25px;
-        font-family: "Inter";
+        font-family: 'Inter';
         font-size: 18px;
         color: white;
         padding: 16px 25px;
@@ -123,7 +122,7 @@ export default {};
         font-size: 18px;
         transition: 0.3s;
         margin-left: 40px;
-        font-family: "Inter";
+        font-family: 'Inter';
         text-decoration: none;
         padding: 16px 25px;
         border-radius: 25px;
@@ -164,7 +163,7 @@ export default {};
       font-weight: 400;
       text-align: justify;
       padding: 0 20px;
-      font-family: "Inter";
+      font-family: 'Inter';
       font-size: 14px;
       bottom: 50%;
     }

@@ -65,7 +65,7 @@
       width: 100%;
     }
   }
-  .main__about__right {
+  .main__about__  right {
     width: 50%;
     margin-top: 120px;
   }

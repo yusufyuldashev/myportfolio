@@ -22,7 +22,7 @@
             alt="desing"
             class="servise__item__img"
           />
-          <h4 class="services__item__title">PHOTOGRAPHY</h4>
+          <h4 class="services__item__title">VUE JS</h4>
           <p class="services__item__line"></p>
         </li>
         <li class="services__item">
@@ -40,7 +40,7 @@
             alt="desing"
             class="servise__item__img"
           />
-          <h4 class="services__item__title">APP DEVELOPING</h4>
+          <h4 class="services__item__title">RESPONSIVE</h4>
           <p class="services__item__line"></p>
         </li>
         <li class="services__item">
@@ -66,7 +66,7 @@
   </section>
 </template>
 
-<style scoped lang='scss'>
+<style scoped lang="scss">
 #section3 {
   background-color: black;
   padding: 40px 0;
@@ -97,7 +97,7 @@
     .services__item__title {
       color: white;
       font-weight: 700;
-      font-family: "Inter";
+      font-family: 'Inter';
       font-size: 14px;
       margin: 20px 0 10px 0;
       text-align: center;

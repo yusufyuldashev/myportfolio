@@ -27,7 +27,7 @@
                 alt="facebook1"
               />
             </a>
-            <a href="#" class="footer__icons">
+            <a href="https://www.instagram.com/yusuf__0_2/" class="footer__icons">
               <img
                 class="footer__instagram"
                 src="../assets/image/instagram.png"

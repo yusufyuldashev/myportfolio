@@ -14,7 +14,7 @@
           <li><a href="#section3">Service</a></li>
           <li><a href="#section4">Portfolio</a></li>
           <li><a href="#section5">Blog</a></li>
-          <li><a href="#section6" class="nav__button"> Contact</a></li>
+          <li><a href="#section6" class="nav__button">Contact</a></li>
         </ul>
       </div>
       <div
@@ -36,7 +36,7 @@
           <li><a href="#section3">Service</a></li>
           <li><a href="#section4">Portfolio</a></li>
           <li><a href="#section5">Blog</a></li>
-          <li><a href="#section6" class="nav__button"> Contact</a></li>
+          <li><a href="#section6" class="nav__button">Contact</a></li>
         </ul>
       </transition>
     </div>
@@ -44,7 +44,7 @@
 </template>
 <script>
 export default {
-  name: "navigation",
+  name: 'navigation',
   data() {
     return {
       scrolledNav: null,
@@ -52,39 +52,39 @@ export default {
       mobile: null,
       mobileNav: null,
       windowWidth: null,
-    };
+    }
   },
   created() {
-    window.addEventListener("resize", this.checkScreen);
-    this.checkScreen();
+    window.addEventListener('resize', this.checkScreen)
+    this.checkScreen()
   },
   mounted() {
-    window.addEventListener("scroll", this.updateScroll);
+    window.addEventListener('scroll', this.updateScroll)
   },
   methods: {
     toggleMobileNav() {
-      this.mobileNav = !this.mobileNav;
+      this.mobileNav = !this.mobileNav
     },
     updateScroll() {
-      const scrollPosition = window.scrollY;
+      const scrollPosition = window.scrollY
       if (scrollPosition > 50) {
-        this.scrolledNav = true;
-        return;
+        this.scrolledNav = true
+        return
       }
-      this.scrolledNav = false;
+      this.scrolledNav = false
     },
     checkScreen() {
-      this.windowWidth = window.innerWidth;
+      this.windowWidth = window.innerWidth
       if (this.windowWidth <= 763) {
-        this.mobile = true;
-        return;
+        this.mobile = true
+        return
       }
-      this.mobileNav = false;
-      this.mobile = false;
-      return;
+      this.mobileNav = false
+      this.mobile = false
+      return
     },
   },
-};
+}
 </script>
 
 <style scoped lang="scss">
@@ -140,7 +140,7 @@ export default {
   text-decoration: none !important;
   padding: 14px 35px;
   border: none;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-size: 18px;
   font-weight: bold;
 }
@@ -182,7 +182,7 @@ nav {
     }
     ul li a {
       color: #a1b5bb;
-      font-family: "Inter", sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 18px;
       font-weight: 400;
       transition: all 0.3s ease 0s;
@@ -197,5 +197,3 @@ nav {
   }
 }
 </style>
-
-
