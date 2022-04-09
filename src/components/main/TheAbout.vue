@@ -42,16 +42,23 @@
             </li>
           </ul>
           <p id="main__project">
-            <span class="main__number">10 </span> Project complete
+            <span class="main__number">20</span>
+            Project complete
           </p>
-          <button type="button" class="main__right__button">Download CV</button>
+
+          <button type="button" class="main__right__button">
+            <a href="/resume/yusuf.pdf" download>
+              Download CV
+            </a>
+          </button>
         </li>
       </ul>
     </div>
   </section>
 </template>
+<script></script>
 
-<style scoped lang='scss'>
+<style scoped lang="scss">
 #section2 {
   background-color: black;
   padding: 50px 0;
@@ -65,7 +72,7 @@
       width: 100%;
     }
   }
-  .main__about__  right {
+  .main__about__ right {
     width: 50%;
     margin-top: 120px;
   }

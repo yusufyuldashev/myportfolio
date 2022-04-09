@@ -8,9 +8,9 @@
           Let me know if you want to talk about a potential collaboration. I'm
           available for freelance work.
         </p>
-        <a href="yusufyuldashev2903@gmail.com" class="contact__email"
-          >yusufyuldashev2903@gmail.com</a
-        >
+        <a href="mailto:yusufyuldashev2903@gmail.com" class="contact__email">
+          yusufyuldashev2903@gmail.com
+        </a>
       </div>
       <form id="contact__form">
         <div class="contact__name">
@@ -18,6 +18,7 @@
             type="text"
             class="contact__name__input"
             placeholder="What’s your name?"
+            required
           />
         </div>
         <div class="contact__email">
@@ -25,6 +26,7 @@
             type="email"
             class="contact__email__input"
             placeholder="Your email"
+            required
           />
         </div>
         <div class="contact__project">
@@ -32,10 +34,15 @@
             type="text"
             class="contact__project__input"
             placeholder="Tell me about your project"
+            required
           />
         </div>
         <div class="contact__button__div">
-          <button class="contact__button__name">Get a Quote</button>
+          <button @click="sending" class="contact__button__name">
+            Get a Quote
+          </button>
+          <h1 v-if="sended" class="sended">successful, we sent your message</h1>
+
           <div class="contact__button__wrapper">
             <button type="button" class="contact__button1">
               <img
@@ -44,7 +51,7 @@
                 class="contact__button__img"
               />
             </button>
-            <button type="button" class="contact__button2">
+            <button type="submit" class="contact__button2">
               <img
                 src="../../assets/image/righticon2.png"
                 alt="right"
@@ -57,8 +64,25 @@
     </div>
   </section>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      sended: false,
+    }
+  },
+  methods: {
+    sending() {
+      this.sended = true
+    },
+  },
+}
+</script>
 
-<style scoped lang='scss'>
+<style scoped lang="scss">
+.sended {
+  color: green;
+}
 #section6 {
   // filter: blur(0.4px);
   padding: 70px 0;
@@ -71,7 +95,7 @@
   .contact__title {
     color: #8643dc;
     font-size: 18px;
-    font-family: "Red Hat Display", sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     font-weight: 400;
     font-style: normal;
   }
@@ -90,7 +114,7 @@
       font-size: 36px;
       max-width: 45%;
       line-height: 1.3;
-      font-family: "Roboto", sans-serif;
+      font-family: 'Roboto', sans-serif;
       color: #21232d;
       margin: 20px 0 50px 0;
     }

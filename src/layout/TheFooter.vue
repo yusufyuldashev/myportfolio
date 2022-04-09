@@ -20,14 +20,23 @@
           </p>
 
           <div class="footer__small__list">
-            <a href="#" class="footer__icons">
-              <img
-                class="footer__facebook"
-                src="../assets/image/facebook.png"
-                alt="facebook1"
-              />
+            <a href="https://t.me/yusufyuldashev" class="footer__icons">
+              <svg
+                fill="grey"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="48px"
+                height="48px"
+              >
+                <path
+                  d="M 19.976562 3.1210938 L 19.611328 3.2695312 C 19.611328 3.2695312 6.6375504 8.5740484 2.6132812 10.267578 L 2.0019531 10.525391 L 2.0019531 12.779297 L 6.9472656 14.755859 L 8.6796875 19.996094 L 10.251953 20.005859 L 12.955078 17.720703 L 16.355469 20.996094 L 18.808594 20.996094 L 21.964844 3.875 L 19.976562 3.1210938 z M 19.646484 5.4179688 L 17.146484 18.980469 L 13.044922 15.029297 L 10.224609 17.410156 L 11 14.375 L 17.28125 8 L 17.082031 7.7988281 C 17.082031 7.7988281 10.706702 11.473998 8.0019531 13.023438 L 4.5371094 11.638672 C 9.0770415 9.7455758 18.697943 5.8058761 19.646484 5.4179688 z"
+                />
+              </svg>
             </a>
-            <a href="https://www.instagram.com/yusuf__0_2/" class="footer__icons">
+            <a
+              href="https://www.instagram.com/yusuf__0_2/"
+              class="footer__icons"
+            >
               <img
                 class="footer__instagram"
                 src="../assets/image/instagram.png"
@@ -41,7 +50,10 @@
                 alt="twitter2"
               />
             </a>
-            <a href="#" class="footer__icons">
+            <a
+              href="https://www.linkedin.com/in/yusuf-yuldashev-468a32231/"
+              class="footer__icons"
+            >
               <img
                 class="footer__linkedin"
                 src="../assets/image/linkedin.png"
@@ -78,8 +90,7 @@
   </section>
 </template>
 
-
-<style scoped lang='scss'>
+<style scoped lang="scss">
 #section6 {
   padding: 40px 0;
   background-color: black;
@@ -127,7 +138,7 @@
       .footer__item__text {
         color: #757575;
         font-size: 18px;
-        font-family: "Inter";
+        font-family: 'Inter';
         max-width: 70%;
         line-height: 1.4;
         margin-top: 14px;
@@ -139,7 +150,7 @@
       .footer__item__title {
         font-size: 24px;
         color: #08546c;
-        font-family: "Inter";
+        font-family: 'Inter';
         font-weight: 500;
         margin-bottom: 28px;
       }
@@ -148,7 +159,7 @@
         color: #787878;
         margin-bottom: 10px;
         text-decoration: none;
-        font-family: "Inter";
+        font-family: 'Inter';
         font-weight: 400;
         font-size: 18px;
       }
