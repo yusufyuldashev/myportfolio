@@ -38,7 +38,7 @@
           />
         </div>
         <div class="contact__button__div">
-          <button @click="sending" class="contact__button__name">
+          <button class="contact__button__name">
             Get a Quote
           </button>
           <h1 v-if="sended" class="sended">successful, we sent your message</h1>
